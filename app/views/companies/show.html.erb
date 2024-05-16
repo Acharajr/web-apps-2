@@ -1,8 +1,8 @@
 <!-- Company details page -->
 
-<h1>Dunder Mifflin</h1>
+<h1><%= @company["name"] %></h1>
 
-<h2>Scranton, PA</h2>
+<h2> <%= @company["city"]%>, <%= @company["state"] %></h2>
 
 <h3>Contacts</h3>
 
@@ -16,5 +16,5 @@
 </p>
 
 <p>
-  <a href="">Back to All Companies</a>
+  <a href="/companies">Back to All Companies</a>
 </p>
